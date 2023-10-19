@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AKN Bojongsoang</title>
+    </head>
+    <body>
+        <h1>JavaScript Can Change Images</h1>
+        <img id="myImage" onclick = "changeImage()" src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2017/07/sby-ingatkan-kekuasaan-jangan-sampai-melampaui-batas_m_147124.jpeg" width="498" height="280">
+        <p text-align="central">Click the image to change image</p>
+        <script>
+            function changeImage(){
+                var image = document.getElementById('myImage');
+                if (image.src.match("akcdn")) {
+                    image.src = "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2017/07/sby-ingatkan-kekuasaan-jangan-sampai-melampaui-batas_m_147124.jpeg";
+                } else {
+                    image.src ="https://akcdn.detik.net.id/visual/2017/07/27/825e228d-1f11-4b43-ba8d-14ac915abbd9_169.jpg?w=650&q=90";
+                }
+            }
+        </script>
+    </body>
+</html>
