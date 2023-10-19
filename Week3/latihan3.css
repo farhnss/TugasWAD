@@ -1,0 +1,14 @@
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    font-style: normal;
+    font-family: serif;
+    color: blueviolet;
+}
+
+p{
+    font-weight: bold;
+    color: black;
+}

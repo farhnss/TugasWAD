@@ -1,0 +1,28 @@
+body{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+    text-decoration: burlywood;
+    color: cornsilk;
+    text-indent: 30px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(181, 186, 81);
+    text-transform: initial;
+}
+
+h3{
+    text-align: center;
+    color: burlywood;
+    text-decoration: wavy;
+}
+
+p{
+    text-align: justify;
+    color: rgb(228, 214, 107);
+    letter-spacing: normal;
+}
